@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // 遍历数组就是获取数组中的每一个元素
+        var salaries = [10000,120000,13000,14000,11000,11000,15000,17000,120000,13000,14000,11000,11000,15000,17000,120000,13000,14000,11000,11000,15000,17000,120000,13000,14000,11000,11000,15000,17000,120000,13000,14000,11000,11000,15000,17000,120000,13000,14000,11000,11000,15000,17000,120000,13000,14000,11000,11000,15000,17000,120000,13000,14000,11000,11000,15000,17000,120000,13000,14000,11000,11000,15000,17000,120000,13000,14000,11000,11000,15000,17000,120000,13000,14000,11000,11000,15000,17000,120000,13000,14000,11000,11000,15000,17000,120000,13000,14000,11000,11000,15000,17000];
+        console.log(salaries.length); 
+        var totalMoney=0;
+        for (var i=0;i<salaries.length;i++) {
+            // 获取所有的薪资
+            console.log(salaries[i]);
+            totalMoney+=salaries[i];
+        }
+        // 打印总薪资
+        console.log(totalMoney);
+        // 计算平均薪资
+        console.log(totalMoney/salaries.length);
+
+    </script>
+</body>
+</html>
